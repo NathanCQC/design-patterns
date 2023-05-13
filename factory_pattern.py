@@ -26,6 +26,7 @@ class Cat(Animal):
 
 # Define a factory class for creating animals
 class AnimalFactory:
+    """Aim of the factory method is to keep class Animal sub class creation in one place"""
     def __init__(self):
         # Define a dictionary that maps AnimalType values to their corresponding classes
         self._animal_types = {
